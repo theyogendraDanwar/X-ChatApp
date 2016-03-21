@@ -1,0 +1,152 @@
+	*{
+		margin:0;
+		font-family: consolas,"Times New Roman", Georgia, Serif;
+	}
+	/*----------------------------------------NavigationBar-----------------------------------------------------------*/
+	ul{
+		list-style-type: none;
+	}
+	ul  li{
+		text-align: left;
+		line-height: 3;
+		display: inline;
+		margin-left: 8%;
+	}
+	ul li a{
+		display: inline;
+		padding: 8px 25px;
+		text-decoration: none;
+	}
+	ul li ul.LCdropdown{
+		text-align: center;
+		top:38px;
+		width: 15%; /* Set width of the dropdown */
+		display: none;
+		position: absolute;
+		left: 23.5%;
+	}
+	ul li:hover ul.LCdropdown {
+		/* Display the dropdown */
+		display: block;
+	}
+	ul li ul.LCdropdown li{
+		display: block;
+
+	}
+	.LCdropdown li{
+		background: rgba(73,155,234,1);
+		background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(61%, rgba(32,124,229,1)));
+		background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+	}
+
+	ul li ul.Ldropdown{
+		text-align: center;
+		top:38px;
+		width: 15%; /* Set width of the dropdown */
+		display: none;
+		position: absolute;
+		left: 6.5%;
+	}
+	ul li:hover ul.Ldropdown {
+		/* Display the dropdown */
+		display: block;
+	}
+	ul li ul.Ldropdown li{
+		display: block;
+
+	}
+	.Ldropdown li{
+		background: rgba(73,155,234,1);
+		background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(61%, rgba(32,124,229,1)));
+		background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+	}
+	.header{
+		background: rgba(73,155,234,1);
+		background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(61%, rgba(32,124,229,1)));
+		background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 61%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+	}
+	#Ltbox{
+		cursor: pointer;
+		position: absolute;
+		display: none;
+		right: 50px;
+		top: 14px;
+
+	}
+	a{
+		text-decoration: none !important;
+		color: white;
+	}
+	/*----------------------------------------End NavigationBar-----------------------------------------------------------*/
+
+
+
+	/*----------------------------------------MiddleBody-----------------------------------------------------------*/
+	.main{
+		height: 1000px;
+		margin-left: 10px;
+	}
+	.middleBody{
+		margin-top: 5px;
+		margin-left: 3%;
+		width: 93%;
+		border-radius: 15px;
+		background-color: rgb(233,233,233);
+		height: 100%;
+	}
+	#Box{
+		border-style: none;
+		background-color: rgb(233,233,233);
+		background-image: url("rsz_play.png");
+		height: 100px;
+		width: 100px;
+	}
+	textarea{
+		margin-left: 10%;
+		height: 8%;
+		width: 66%;
+		resize:none;
+	}
+	#screen{
+		background-color: white;
+		color: black;
+		border-width: 2px;
+		height: 35%;
+		width: 78%;
+		margin-left: 10%;
+	}
+	#ChatMAIN{
+		position: relative;
+	}
+	/*----------------------------------------End MiddleBody-----------------------------------------------------------*/
+	
+	/*----------------------------------------Footer-----------------------------------------------------------*/
+	footer{
+		margin-left: 3.5%;
+		background-color: rgb(74,74,74);
+		margin-top: 5px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		color: white;
+		width: 92.5%;
+		height: 10%;
+	}
+	footer > label{
+		margin-left: 20px;
+	}
+	/*----------------------------------------End Fotter-----------------------------------------------------------*/
