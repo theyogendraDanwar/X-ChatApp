@@ -27,7 +27,7 @@ if (isset($_POST['Ruser'])&&isset($_POST['Rpass'])&&isset($_POST['Cpass'])) {
 ?>
 <html> 
 <head> 
-	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
 	<link rel="shortcut icon" href="/i.ico"/>
 	<title>ChatApp</title> 
 </head> 

@@ -4,12 +4,12 @@
 		?>
 		<html>
 		<head>
-			<link rel="stylesheet" type="text/css" href="Designer.css">
+			<link rel="stylesheet" type="text/css" href="css/Designer.css">
 			<link rel="shortcut icon" href="/i.ico"/>
 			<title>SocialChat</title>
 		</head>
 		<body onunload="myFunction()">
-			<script src="Script.js"></script>
+			<script src="js/Script.js"></script>
 			<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
 			<script src="jquery.js"></script>
 			<script>

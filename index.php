@@ -29,10 +29,10 @@ if (isset($_POST['Uname'])&&isset($_POST['pass'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="Script.js"></script>
+	<script src="js/Script.js"></script>
 	<noscript>This Browser Does Not Support Javascript</noscript>
 	<link rel="shortcut icon" href="/i.ico"/>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>ChatApp</title>
 </head>
 <body>
