@@ -1,4 +1,4 @@
-body{
+sbody{
 	overflow-y: hidden;
 	margin-left: 0;
 	background: rgba(73,155,234,1);
@@ -10,6 +10,7 @@ body{
 	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
 }
+
 #existBlock{
 	right:37%;
 	position: relative;
@@ -62,7 +63,7 @@ body{
 	top: 320px;
 	height: 40%;
 	width: 100%;
-	background-image: url("back.jpg");
+	background-image: url("../img/back.jpg");
 	background-repeat: repeat-x;
 
 }
@@ -85,8 +86,9 @@ body{
 	font-family: consolas,"Times New Roman";
 	font-variant: small-caps;
 }
+
 #Narrator{
-	right: 320px;
+	left: calc(100% - 40%);
 	font-style: oblique;
 	font-size: 150%;
 	position: absolute;
@@ -121,6 +123,7 @@ button{
 	cursor: pointer;
 }
 .classname{
+	
 	-webkit-animation-name:cssOpening;
 	-webkit-animation-duration:1s;
 	-webkit-animation-timing-function:linear;
@@ -141,6 +144,7 @@ button{
 	animation-fill-mode: forwards;
 }
 .classname2{
+	
 	-webkit-animation-name:cssClosing;
 	-webkit-animation-duration:1s;
 	-webkit-animation-timing-function:linear;

@@ -1,4 +1,4 @@
-This is the microChatapp designed for the eductaion purpose only.
+This is the micro ChatApp designed for the eductaion purpose only.
 
 Purpose:
 

@@ -7,5 +7,5 @@ if ($conn->connect_error) {
 mysqli_query($conn,"UPDATE `login` SET logged_Status=0 where `id`='$_SESSION[id]' ");
 mysqli_close($conn);
 session_destroy();
-header('Location:index.php');
+header('Location:../index.php');
 ?>

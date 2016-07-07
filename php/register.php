@@ -28,11 +28,11 @@ if (isset($_POST['Ruser'])&&isset($_POST['Rpass'])&&isset($_POST['Cpass'])) {
 <html> 
 <head> 
 	<link rel="stylesheet" type="text/css" href="css/register.css">
-	<link rel="shortcut icon" href="/i.ico"/>
+	<link rel="shortcut icon" href="../img/i.ico"/>
 	<title>ChatApp</title> 
 </head> 
 <body>
-	<div id="banner"><img src="register.png"/></div>
+	<div id="banner"><img src="../img/register.png"/></div>
 	</div>
 	<div id="Regblock">
 		<fieldset>

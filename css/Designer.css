@@ -112,7 +112,7 @@
 	#Box{
 		border-style: none;
 		background-color: rgb(233,233,233);
-		background-image: url("rsz_play.png");
+		background-image: url("../img/rsz_play.png");
 		height: 100px;
 		width: 100px;
 	}

@@ -1,5 +1,7 @@
 var Lflag=0;
+
 var pause=0;
+
 var songs=["1.mp3","2.mp3","3.mp3","4.mp3"];
 
 function Lay1(){
@@ -10,6 +12,7 @@ function Lay1(){
 	document.getElementsByClassName("List3")[0].style.background="rgb(87,87,172)";
 	document.getElementsByClassName("List4")[0].style.background="rgb(87,87,172)";
 }
+
 function Lay2(){
 	document.getElementsByClassName("header")[0].style.background="rgb(128,128,64)";
 	document.getElementsByClassName("List1")[0].style.background="rgb(128,128,64)";
@@ -18,6 +21,7 @@ function Lay2(){
 	document.getElementsByClassName("List3")[0].style.background="rgb(128,128,64)";
 	document.getElementsByClassName("List4")[0].style.background="rgb(128,128,64)";
 }
+
 function Lay3(){
 	document.getElementsByClassName("header")[0].style.background="rgb(64,128,128)";
 	document.getElementsByClassName("List1")[0].style.background="rgb(64,128,128)";
@@ -26,6 +30,7 @@ function Lay3(){
 	document.getElementsByClassName("List3")[0].style.background="rgb(64,128,128)";
 	document.getElementsByClassName("List4")[0].style.background="rgb(64,128,128)";
 }
+
 function Lay4(){
 	document.getElementsByClassName("header")[0].style.background="rgb(79,79,79)";
 	document.getElementsByClassName("List1")[0].style.background="rgb(79,79,79)";
@@ -34,6 +39,7 @@ function Lay4(){
 	document.getElementsByClassName("List3")[0].style.background="rgb(79,79,79)";
 	document.getElementsByClassName("List4")[0].style.background="rgb(79,79,79)";
 }
+
 function RBox(){
 	if (Lflag==0){
 		document.getElementById('RegBox').className="classname";
@@ -44,6 +50,7 @@ function RBox(){
 		Lflag=0;
 	}
 }
+
 function lBox(){
 	if (Lflag==0){
 		document.getElementById('LoginBox').className="classname";
